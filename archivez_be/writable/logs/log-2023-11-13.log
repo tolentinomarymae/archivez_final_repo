@@ -1,0 +1,140 @@
+CRITICAL - 2023-11-13 05:11:05 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:18:02 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:18:05 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:20 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:21 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:23 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:23 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:33 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:44 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:58 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:23:59 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:31:35 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:31:36 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:31:37 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:33:44 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:38:12 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:42:06 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:42:06 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 12:41:33 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 12:41:34 --> Undefined property: stdClass::$researchtitle
+in APPPATH\Controllers\ResearchOutputController.php on line 24.
+ 1 APPPATH\Controllers\ResearchOutputController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$researchtitle', 'C:\\laragon\\www\\archivez_be\\app\\Controllers\\ResearchOutputController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
