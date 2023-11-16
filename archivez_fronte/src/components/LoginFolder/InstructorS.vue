@@ -8,30 +8,36 @@
            <img
              aria-hidden="true"
              class="object-cover w-full h-full dark:hidden"
-             src="../../../public/dashboardjs/img/login-office.jpeg"
+             src="./dashboardjs/img/login-office.jpeg"
              alt="Office" />
            <img
              aria-hidden="true"
              class="hidden object-cover w-full h-full dark:block"
-             src="../../../public/dashboardjs/img/login-office-dark.jpeg"
+             src="./dashboardjs/img/login-office-dark.jpeg"
              alt="Office"/>
          </div>
          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
            <div class="w-full">
-             <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">Signup as Instructor</h1>
+             <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">Sign Up as Instructor</h1>
              <div class="login-container">
-               <form action="#" method="POST">
+              <form action="#" method="POST">
                    <div class="form-group">
-                       <input type="email" id="email" name="email" placeholder="Email" required>
+                       <input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
                    </div>
                    <div class="form-group">
-                       <input type="text" id="username" name="username" placeholder="Username" required>
+                       <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                   </div>
+                   <div class="form-group">
+                       <input type="text" id="email" name="email" placeholder="Email" required>
                    </div>
                    <div class="form-group">
                        <input type="password" id="password" name="password" placeholder="Password" required>
                    </div>
                    <div class="form-group">
-                       <input type="submit" value="Login">
+                       <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" required>
+                   </div>
+                   <div class="form-group">
+                       <input type="submit" value="Register">
                    </div>
                </form>
              </div>

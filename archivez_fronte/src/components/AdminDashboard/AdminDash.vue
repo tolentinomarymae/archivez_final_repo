@@ -6,8 +6,8 @@
         <!-- partial:partials/_navbar.html -->
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
           <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-            <a class="navbar-brand brand-logo" href="#"><img src="../../../public/purplejs/images/archivez3.png" alt="logo" /></a>
-            <a class="navbar-brand brand-logo-mini" href="#"><img src="../../../public/purplejs/images/archivezLogo1.png" alt="logo" /></a>
+            <a class="navbar-brand brand-logo" href="#"><img src="./purplejs/images/archivez3.png" alt="logo" /></a>
+            <a class="navbar-brand brand-logo-mini" href="#"><img src="./purplejs/images/archivezLogo1.png" alt="logo" /></a>
           </div>
           <div class="navbar-menu-wrapper d-flex align-items-stretch">
             <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -27,7 +27,7 @@
               <li class="nav-item nav-profile dropdown">
                 <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
                   <div class="nav-profile-img">
-                    <img src="../../../public/purplejs/images/faces/face1.jpg" alt="image">
+                    <img src="./purplejs/images/faces/face1.jpg" alt="image">
                     <span class="availability-status online"></span>
                   </div>
                   <div class="nav-profile-text">
@@ -57,7 +57,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="../../../public/purplejs/images/faces/face4.jpg" alt="image" class="profile-pic">
+                      <img src="./purplejs/images/faces/face4.jpg" alt="image" class="profile-pic">
                     </div>
                     <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                       <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
@@ -67,7 +67,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="../../../public/purplejs/images/faces/face2.jpg" alt="image" class="profile-pic">
+                      <img src="./purplejs/images/faces/face2.jpg" alt="image" class="profile-pic">
                     </div>
                     <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                       <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
@@ -77,7 +77,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="../../../public/purplejs/images/faces/face3.jpg" alt="image" class="profile-pic">
+                      <img src="./purplejs/images/faces/face3.jpg" alt="image" class="profile-pic">
                     </div>
                     <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                       <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
@@ -155,7 +155,7 @@
               <li class="nav-item nav-profile">
                 <a href="#" class="nav-link">
                   <div class="nav-profile-image">
-                    <img src="../../../public/purplejs/images/faces/face1.jpg" alt="profile">
+                    <img src="./purplejs/images/faces/face1.jpg" alt="profile">
                     <span class="login-status online"></span>
                     <!--change to offline or busy as needed-->
                   </div>
@@ -220,7 +220,7 @@
                 <div class="col-md-4 stretch-card grid-margin">
                   <div class="card bg-gradient-danger card-img-holder text-white">
                     <div class="card-body">
-                      <img src="../../../public/purplejs/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                      <img src="./purplejs/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                       <h4 class="font-weight-normal mb-3">Research Paper Uploaded <i class="mdi mdi-chart-line mdi-24px float-right"></i>
                       </h4>
                       <h2 class="mb-5">0</h2>
@@ -230,7 +230,7 @@
                 <div class="col-md-4 stretch-card grid-margin">
                   <div class="card bg-gradient-info card-img-holder text-white">
                     <div class="card-body">
-                      <img src="../../../public/purplejs/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                      <img src="./purplejs/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                       <h4 class="font-weight-normal mb-3">Comments <i class="mdi mdi-comment mdi-24px float-right"></i>
                       </h4>
                       <h2 class="mb-5">0</h2>
@@ -240,7 +240,7 @@
                 <div class="col-md-4 stretch-card grid-margin">
                   <div class="card bg-gradient-success card-img-holder text-white">
                     <div class="card-body">
-                      <img src="../../../public/purplejs/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                      <img src="./purplejs/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                       <h4 class="font-weight-normal mb-3">Upvote <i class="mdi mdi-arrow-up-bold mdi-24px float-right"></i>
                       </h4>
                       <h2 class="mb-5">0</h2>

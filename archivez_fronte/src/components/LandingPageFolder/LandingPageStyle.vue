@@ -4,9 +4,6 @@
     @import '@/assets/landingpagecss/css/fontawesome-all.css';
     @import '@/assets/landingpagecss/css/swiper.css';
     @import '@/assets/landingpagecss/css/magnific-popup.css';
-	
-
-
 </style>
 
 

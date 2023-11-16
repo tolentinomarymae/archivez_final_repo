@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="../../../public/landingpagejs/images/archivez3.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="index.html"><img src="./landingpagejs/images/archivez3.png" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="color: #000;">
@@ -40,8 +40,6 @@
                     <a class="nav-link page-scroll" href="#contact">Contact</a>
 
                 </li>
-                
-
             </ul>
             
         </div>
@@ -61,9 +59,8 @@
                             <h6>Where ideas thrive and knowldge resides, your <span class="turquoise">research journey </span>begins here!</h6>
                            
                             <div class="dropdown">
-                                <button class="dropbtn">Log In</button>
+                                <button class="dropbtn">Login</button>
                                 <div class="dropdown-content">
-                                    <router-link to="/adminlogin">Admin</router-link>
                                     <router-link to="/instructorlogin">Instructor</router-link>
                                     <router-link to="/studentlogin">Student</router-link>
                                 </div>
@@ -72,7 +69,7 @@
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="image-container">
-                            <img class="img-fluid svg-image" src="../../../public/landingpagejs/images/details-2-office-team-work.svg" alt="alternative">
+                            <img class="img-fluid svg-image" src="./landingpagejs/images/details-2-office-team-work.svg" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -99,7 +96,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img class="card-image" src="../../../public/landingpagejs/images/icon1.svg" alt="alternative">
+                        <img class="card-image" src="./landingpagejs/images/icon1.svg" alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Effortless Document Submission</h4>
                             <p>Simplify your research paper submission process with our user-friendly system</p>
@@ -109,7 +106,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img class="card-image" src="../../../public/landingpagejs/images/icon2.svg" alt="alternative">
+                        <img class="card-image" src="./landingpagejs/images/icon2.svg" alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Real-Time Evaluation</h4>
                             <p>Receive instant feedback from research instructors and improve your research work</p>
@@ -119,7 +116,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img class="card-image" src="../../../public/landingpagejs/images/icon3.svg" alt="alternative">
+                        <img class="card-image" src="./landingpagejs/images/icon3.svg" alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Knowledge Preservation</h4>
                             <p>Preserve valuable research papers and scholarly works, ensuring the longevity of academic knowledge</p>
@@ -150,7 +147,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid svg-image" src="../../../public/landingpagejs/images/details-1-office-worker.svg" alt="alternative">
+                        <img class="img-fluid svg-image" src="./landingpagejs/images/details-1-office-worker.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -167,7 +164,7 @@
             <div class="row" >
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid svg-image" src="../../../public/landingpagejs/images/testimonials-2-men-talking.svg" alt="alternative">
+                        <img class="img-fluid svg-image" src="./landingpagejs/images/testimonials-2-men-talking.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -256,7 +253,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.3989617203433!2d121.1596461118314!3d13.387604805564546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bceed6e29309c7%3A0x963e2dc010195599!2sMindoro%20State%20University%2C%20Calapan%20City%20Campus!5e0!3m2!1sen!2sph!4v1698821453409!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                        <iframe src="hgle.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.3989617203433!2d121.1596461118314!3d13.387604805564546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bceed6e29309c7%3A0x963e2dc010195599!2sMindoro%20State%20University%2C%20Calapan%20City%20Campus!5e0!3m2!1sen!2sph!4v1698821453409!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-lg-6">

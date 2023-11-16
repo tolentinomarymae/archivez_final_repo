@@ -8,12 +8,12 @@
            <img
              aria-hidden="true"
              class="object-cover w-full h-full dark:hidden"
-             src="../../../public/dashboardjs/img/login-office.jpeg"
+             src="./dashboardjs/img/login-office.jpeg"
              alt="Office" />
            <img
              aria-hidden="true"
              class="hidden object-cover w-full h-full dark:block"
-             src="../../../public/dashboardjs/img/login-office-dark.jpeg"
+             src="./dashboardjs/img/login-office-dark.jpeg"
              alt="Office"/>
          </div>
          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
@@ -28,17 +28,9 @@
                 <input type="email" id="email" name="email" placeholder="Email" required>
             </div>
             <div class="form-group">
-                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
-            </div>
-            <div class="form-group">
                 <input type="password" id="password" name="password" placeholder="Password" required>
             </div>
-            <div class="form-group">
-                <select id="department" name="department">
-                    <option value="Junior High School">Junior High School</option>
-                    <option value="Senior High School">Senior High School</option>
-                </select>
-            </div>
+
             <div class="form-group">
                 <input type="submit" value="Login">
             </div>
