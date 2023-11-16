@@ -28,17 +28,9 @@
                 <input type="email" id="email" name="email" placeholder="Email" required>
             </div>
             <div class="form-group">
-                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
-            </div>
-            <div class="form-group">
                 <input type="password" id="password" name="password" placeholder="Password" required>
             </div>
-            <div class="form-group">
-                <select id="department" name="department">
-                    <option value="Junior High School">Junior High School</option>
-                    <option value="Senior High School">Senior High School</option>
-                </select>
-            </div>
+
             <div class="form-group">
                 <input type="submit" value="Login">
             </div>

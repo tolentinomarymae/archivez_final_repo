@@ -25,9 +25,6 @@
                         <input type="email" id="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="username" name="username" placeholder="Username" required>
-                    </div>
-                    <div class="form-group">
                         <input type="password" id="password" name="password" placeholder="Password" required>
                     </div>
                     <div class="form-group">

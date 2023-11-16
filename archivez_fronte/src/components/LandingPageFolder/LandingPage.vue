@@ -40,8 +40,6 @@
                     <a class="nav-link page-scroll" href="#contact">Contact</a>
 
                 </li>
-                
-
             </ul>
             
         </div>
@@ -61,9 +59,8 @@
                             <h6>Where ideas thrive and knowldge resides, your <span class="turquoise">research journey </span>begins here!</h6>
                            
                             <div class="dropdown">
-                                <button class="dropbtn">Log In</button>
+                                <button class="dropbtn">Login</button>
                                 <div class="dropdown-content">
-                                    <router-link to="/adminlogin">Admin</router-link>
                                     <router-link to="/instructorlogin">Instructor</router-link>
                                     <router-link to="/studentlogin">Student</router-link>
                                 </div>
