@@ -376,3 +376,246 @@ FROM `researchoutputs`', [], false)
  7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 11:17:07 --> mysqli_sql_exception: Table 'archivez.researchoutputs' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\ResearchOutputController.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\ResearchOutputController->getResearchOutput()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 11:17:07 --> Table 'archivez.researchoutputs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `researchoutputs`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ResearchOutputController.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->getResearchOutput()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 11:17:12 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 11:17:12 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 11:28:41 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 11:28:41 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 11:28:55 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 11:28:55 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 11:29:55 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 11:29:55 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 13:16:05 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 13:16:05 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 13:19:02 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 13:19:02 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 13:19:06 --> mysqli_sql_exception: Table 'archivez.researchoutputs' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\ResearchOutputController.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\ResearchOutputController->getResearchOutput()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 13:19:06 --> Table 'archivez.researchoutputs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `researchoutputs`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ResearchOutputController.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ResearchOutputController->getResearchOutput()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResearchOutputController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')
+ERROR - 2023-11-16 13:20:38 --> mysqli_sql_exception: Table 'archivez.studentprofile' doesn't exist in D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\archivez_final_repo\archivez_be\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\archivez_final_repo\archivez_be\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\archivez_final_repo\archivez_be\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\archivez_final_repo\archivez_be\app\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+#8 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+#9 D:\laragon\www\archivez_final_repo\archivez_be\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\archivez_final_repo\archivez_be\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\archivez_final_repo\archivez_be\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-11-16 13:20:38 --> Table 'archivez.studentprofile' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `studentprofile`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentProfileController.php(19): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\StudentProfileController->getStudentProfileData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\archivez_final_repo\\archivez_be\\public\\index.php')

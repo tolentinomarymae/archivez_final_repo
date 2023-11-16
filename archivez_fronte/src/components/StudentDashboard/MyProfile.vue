@@ -303,6 +303,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">About Me</h4>
+                    <div class="table-responsive">
                     <table class="table table-hover">
                       <thead>
                         <tr>
@@ -323,12 +324,12 @@
                           <td>{{ info.gradelevel }}</td>
                           <td>{{ info.section }}</td>
                           <td>{{ info.aboutme }}</td>
-                          <td> <button type="button" class="btn btn-gradient-primary btn-rounded btn-fw">Edit Profile</button>
-</td>
+                          <td> <button type="button" class="btn btn-gradient-primary btn-rounded btn-fw">Edit Profile</button></td>
                         </tr>
                         
                       </tbody>
                     </table>
+                  </div>
                   </div>
                 </div>
               </div>
