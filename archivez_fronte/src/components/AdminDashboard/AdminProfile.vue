@@ -7,7 +7,7 @@
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
           <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
             <a class="navbar-brand brand-logo" href="#"><img src="./purplejs/images/archivez3.png" alt="logo" /></a>
-            <a class="navbar-brand brand-logo-mini" href="#"><img src="./purplejs/images/archivezLogo1.png" alt="logo" /></a>
+            <a class="navbar-brand brand-logo-mini" href="#"><img src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/306201095_455085189969923_8362709336925624569_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=u8jPz0Rfh4sAX9lA1Fd&_nc_zt=23&_nc_ht=scontent.fmnl13-1.fna&oh=00_AfBcVmjLnGfKuPV3pot_aXldNJeWJSk4kZr2r1uCT5vq5w&oe=655DD17B" alt="logo" /></a>
           </div>
           <div class="navbar-menu-wrapper d-flex align-items-stretch">
             <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">

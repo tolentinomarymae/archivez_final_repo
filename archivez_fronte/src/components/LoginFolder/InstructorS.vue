@@ -4,11 +4,11 @@
      <div
        class="flex-1 h-full max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-xl dark:bg-gray-800">
        <div class="flex flex-col overflow-y-auto md:flex-row">
-         <div class="h-32 md:h-auto md:w-1/2">
+         <div class="h-32 md:h-auto md:w-1/2 flex items-center">
            <img
              aria-hidden="true"
-             class="object-cover w-full h-full dark:hidden"
-             src="./dashboardjs/img/login-office.jpeg"
+             class="object-cover w-half h-half dark:hidden"
+             src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/306201095_455085189969923_8362709336925624569_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=u8jPz0Rfh4sAX9lA1Fd&_nc_zt=23&_nc_ht=scontent.fmnl13-1.fna&oh=00_AfBcVmjLnGfKuPV3pot_aXldNJeWJSk4kZr2r1uCT5vq5w&oe=655DD17B"
              alt="Office" />
            <img
              aria-hidden="true"
