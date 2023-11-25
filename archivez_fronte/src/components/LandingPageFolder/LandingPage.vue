@@ -59,10 +59,10 @@
                             <h6>Where ideas thrive and knowldge resides, your <span class="turquoise">research journey </span>begins here!</h6>
                            
                             <div class="dropdown">
-                                <button class="dropbtn">Login</button>
+                                <button class="dropbtn">Get Started</button>
                                 <div class="dropdown-content">
-                                    <router-link to="/instructorlogin">Instructor</router-link>
-                                    <router-link to="/studentlogin">Student</router-link>
+                                    <router-link to="/instructorsignup">Register</router-link>
+                                    <router-link to="/instructorlogin">Login</router-link>
                                 </div>
                                 </div>
                         </div> <!-- end of text-container -->

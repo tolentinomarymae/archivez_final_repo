@@ -18,26 +18,32 @@
          </div>
          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
            <div class="w-full">
-             <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">Sign Up as Instructor</h1>
+             <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200"><center>Sign Up</center></h1>
              <div class="login-container">
-              <form action="#" method="POST">
+              <form @submit.prevent="signup">
                    <div class="form-group">
-                       <input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+                       <input type="text" id="firstname" name="firstname" placeholder="Firstname" v-model="firstname" required>
                    </div>
                    <div class="form-group">
-                       <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                       <input type="text" id="lastname" name="lastname" placeholder="Lastname" v-model="lastname" required>
+                   </div>
+
+                   <div class="form-group">
+                       <input type="usertype" id="usertype" name="usertype" placeholder="User type" v-model="usertype" required>
+                   </div>
+
+                   <div class="form-group">
+                       <input type="email" id="email" name="email" placeholder="Email" v-model="email" required>
                    </div>
                    <div class="form-group">
-                       <input type="text" id="email" name="email" placeholder="Email" required>
+                       <input type="password" id="password" name="password" placeholder="Password" v-model="password" required>
                    </div>
                    <div class="form-group">
-                       <input type="password" id="password" name="password" placeholder="Password" required>
+                       <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" v-model="password_confirm" required>
                    </div>
+                   <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
                    <div class="form-group">
-                       <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" required>
-                   </div>
-                   <div class="form-group">
-                       <input type="submit" value="Register">
+                       <button type="submit" value="Register"></button>
                    </div>
                </form>
              </div>
@@ -102,3 +108,47 @@
            text-decoration: underline;
        }
 </style>
+
+<script> 
+  import router from '@/router'; 
+  import axios from 'axios'; 
+
+  export default { 
+
+    data() { 
+      return { 
+        firstname: '', 
+        lastname: '', 
+        usertype: '', 
+        email: '',
+        password: '', 
+        password_confirm: '', 
+        message: [], 
+      }; 
+
+    }, 
+
+    methods: { 
+      async signup() { 
+        if (this.password === this.password_confirm) { 
+          const datasign = await axios.post("signup", { 
+            firstname: this.firstname,
+            lastname: this.lastname,
+            usertype: this.usertype,
+            email: this.email,
+            password: this.password 
+          }); 
+
+          this.message = datasign.data.msg; 
+          if (datasign.data.msg === 'okay') { 
+            //sessionStorage.setItem("jwt", data.data.token) 
+            alert("Registered successfully"); 
+            router.push('/instructorlogin'); 
+          } 
+        } else { 
+          this.message = "passwordMismatch"; 
+        } 
+      } 
+    }
+  }; 
+</script> 

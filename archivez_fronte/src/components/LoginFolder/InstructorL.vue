@@ -18,17 +18,17 @@
           </div>
           <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
             <div class="w-full">
-              <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">Login as Instructor</h1>
+              <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200"><center>Login</center></h1>
               <div class="login-container">
-                <form action="#" method="POST">
+                <form @submit.prevent="signin">
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="email" id="email" name="email" placeholder="Email" v-model="email" required>
                     </div>
                     <div class="form-group">
-                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <input type="password" id="password" name="password" placeholder="Password" v-model="password" required>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Login">
+                        <button type="submit" value="Login"> </button>
                     </div>
                 </form>
               </div>
@@ -94,3 +94,40 @@
             text-decoration: underline;
         }
 </style>
+
+<script>
+import axios from 'axios';
+import router from '@/router'
+
+  export default {
+      data() {
+          return{
+            firstname: this.firstname,
+            lastname: this.lastname,
+            usertype: this.usertype,
+            email: this.email,
+            password: this.password 
+          }
+      },
+      methods: {
+        async signin(){
+            const signdata = await axios.post("signin",{
+                email: this.email,
+                password: this.password
+            });
+            this.message = signdata.data.msg;
+            if(signdata.data.msg === 'okay'){
+                sessionStorage.setItem("token", signdata.data.token);
+                if(signdata.data.usertype === 'instructor'){
+                    router.push('/instructordashboard');
+                }else if(signdata.data.usertype === 'student'){
+                    router.push('/studentdashboard');
+                }
+            }else{
+                alert("Wrong credentials"); 
+                router.push('/');
+            }
+        }
+      }
+  }
+</script>
