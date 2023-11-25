@@ -249,7 +249,7 @@
                           <div class="form-group row">
                             <label for="submittedto" class="col-sm-3 col-form-label">Teacher</label>
                             <div class="col-sm-9">
-                              <input type="text" class="form-control" v-model="submittedto" required placeholder="Techer">
+                              <input type="text" class="form-control" v-model="submittedto" required placeholder="Teacher">
                             </div>
                           </div>
                         </div>
