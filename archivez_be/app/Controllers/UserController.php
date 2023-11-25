@@ -7,7 +7,7 @@ use CodeIgniter\RestFul\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\UserModel;
 
-class UserController extends BaseController
+class UserController extends ResourceController
 {
     public function index()
     {
@@ -22,7 +22,7 @@ class UserController extends BaseController
       $email = $this->request->getVar('email');
       $usertype = $this->request->getVar('usertype');
       $password = $this->request->getVar('password'); 
-      $data = $user->where('lastname', $lastname)->first();
+      $data = $user->where('email', $email)->first();
 
        if($data){
          $pass = $data['password']; 

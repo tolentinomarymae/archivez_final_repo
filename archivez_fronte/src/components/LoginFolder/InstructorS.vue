@@ -22,28 +22,42 @@
              <div class="login-container">
               <form @submit.prevent="signup">
                    <div class="form-group">
+                    <label for="firstname">Firstname</label>
                        <input type="text" id="firstname" name="firstname" placeholder="Firstname" v-model="firstname" required>
                    </div>
                    <div class="form-group">
+                    <label for="lastname">Lastname</label>
                        <input type="text" id="lastname" name="lastname" placeholder="Lastname" v-model="lastname" required>
                    </div>
 
                    <div class="form-group">
-                       <input type="usertype" id="usertype" name="usertype" placeholder="User type" v-model="usertype" required>
+                      <label class="block mt-4 text-sm">
+                        <span class="text-gray-700 dark:text-gray-400">User Type</span>
+                        <select id="usertype" name="usertype" v-model="usertype" required
+                          class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+                        >
+                          <option value="student">Student</option>
+                          <option value="instructor">Instructor</option>
+                          <option value="admin">Admin</option>
+                        </select>
+                      </label>
                    </div>
 
                    <div class="form-group">
+                    <label for="email">Email</label>
                        <input type="email" id="email" name="email" placeholder="Email" v-model="email" required>
                    </div>
                    <div class="form-group">
-                       <input type="password" id="password" name="password" placeholder="Password" v-model="password" required>
+                    <label for="password">Password</label>
+                       <input type="password" id="password" name="password" placeholder="********" v-model="password" required>
                    </div>
                    <div class="form-group">
-                       <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" v-model="password_confirm" required>
+                    <label for="password_confirm">Confirm Password</label>
+                       <input type="password" id="password_confirm" name="password_confirm" placeholder="********" v-model="password_confirm" required>
                    </div>
                    <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
                    <div class="form-group">
-                       <button type="submit" value="Register"></button>
+                       <input type="submit" value="Register">
                    </div>
                </form>
              </div>

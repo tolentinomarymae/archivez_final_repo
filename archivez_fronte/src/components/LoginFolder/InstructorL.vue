@@ -28,7 +28,7 @@
                         <input type="password" id="password" name="password" placeholder="Password" v-model="password" required>
                     </div>
                     <div class="form-group">
-                        <button type="submit" value="Login"> </button>
+                       <input type="submit" value="Login"> 
                     </div>
                 </form>
               </div>
@@ -102,11 +102,9 @@ import router from '@/router'
   export default {
       data() {
           return{
-            firstname: this.firstname,
-            lastname: this.lastname,
-            usertype: this.usertype,
             email: this.email,
-            password: this.password 
+            password: this.password,
+            message: [],
           }
       },
       methods: {
@@ -118,14 +116,17 @@ import router from '@/router'
             this.message = signdata.data.msg;
             if(signdata.data.msg === 'okay'){
                 sessionStorage.setItem("token", signdata.data.token);
-                if(signdata.data.usertype === 'instructor'){
-                    router.push('/instructordashboard');
+                if(signdata.data.usertype === 'admin'){
+                    router.push('/admindashboard');
                 }else if(signdata.data.usertype === 'student'){
                     router.push('/studentdashboard');
                 }
+                else if(signdata.data.usertype === 'instructor'){
+                    router.push('/instructordashboard');
+                }
             }else{
                 alert("Wrong credentials"); 
-                router.push('/');
+                router.push('/instructorlogin');
             }
         }
       }
