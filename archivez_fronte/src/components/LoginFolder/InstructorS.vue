@@ -18,24 +18,44 @@
          </div>
          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
            <div class="w-full">
-             <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">Sign Up as Instructor</h1>
+             <h1 class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200"><center>Sign Up</center></h1>
              <div class="login-container">
-              <form action="#" method="POST">
+              <form @submit.prevent="signup">
                    <div class="form-group">
-                       <input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+                    <label for="firstname">Firstname</label>
+                       <input type="text" id="firstname" name="firstname" placeholder="Firstname" v-model="firstname" required>
                    </div>
                    <div class="form-group">
-                       <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                    <label for="lastname">Lastname</label>
+                       <input type="text" id="lastname" name="lastname" placeholder="Lastname" v-model="lastname" required>
+                   </div>
+
+                   <div class="form-group">
+                      <label class="block mt-4 text-sm">
+                        <span class="text-gray-700 dark:text-gray-400">User Type</span>
+                        <select id="usertype" name="usertype" v-model="usertype" required
+                          class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+                        >
+                          <option value="student">Student</option>
+                          <option value="instructor">Instructor</option>
+                          <option value="admin">Admin</option>
+                        </select>
+                      </label>
+                   </div>
+
+                   <div class="form-group">
+                    <label for="email">Email</label>
+                       <input type="email" id="email" name="email" placeholder="Email" v-model="email" required>
                    </div>
                    <div class="form-group">
-                       <input type="text" id="email" name="email" placeholder="Email" required>
+                    <label for="password">Password</label>
+                       <input type="password" id="password" name="password" placeholder="********" v-model="password" required>
                    </div>
                    <div class="form-group">
-                       <input type="password" id="password" name="password" placeholder="Password" required>
+                    <label for="password_confirm">Confirm Password</label>
+                       <input type="password" id="password_confirm" name="password_confirm" placeholder="********" v-model="password_confirm" required>
                    </div>
-                   <div class="form-group">
-                       <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" required>
-                   </div>
+                   <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
                    <div class="form-group">
                        <input type="submit" value="Register">
                    </div>
@@ -102,3 +122,47 @@
            text-decoration: underline;
        }
 </style>
+
+<script> 
+  import router from '@/router'; 
+  import axios from 'axios'; 
+
+  export default { 
+
+    data() { 
+      return { 
+        firstname: '', 
+        lastname: '', 
+        usertype: '', 
+        email: '',
+        password: '', 
+        password_confirm: '', 
+        message: [], 
+      }; 
+
+    }, 
+
+    methods: { 
+      async signup() { 
+        if (this.password === this.password_confirm) { 
+          const datasign = await axios.post("signup", { 
+            firstname: this.firstname,
+            lastname: this.lastname,
+            usertype: this.usertype,
+            email: this.email,
+            password: this.password 
+          }); 
+
+          this.message = datasign.data.msg; 
+          if (datasign.data.msg === 'okay') { 
+            //sessionStorage.setItem("jwt", data.data.token) 
+            alert("Registered successfully"); 
+            router.push('/instructorlogin'); 
+          } 
+        } else { 
+          this.message = "passwordMismatch"; 
+        } 
+      } 
+    }
+  }; 
+</script> 

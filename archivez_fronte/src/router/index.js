@@ -129,4 +129,22 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) =>{
+  const isLoggedin = checkUserLogin();
+  if(to.matched.some((record) => record.meta.requireAuth)){
+    if(!isLoggedin){
+      next("/");
+    }else{
+      next();
+    }
+  }else{
+    next();
+  }
+});
+
+function checkUserLogin() {
+  const userToken = sessionStorage.getItem("token");
+  return !!userToken;
+}
+
 export default router

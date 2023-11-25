@@ -6,7 +6,7 @@ import { loadFonts } from './plugins/webfontloader'
 import axios from 'axios'
 
 loadFonts()
-axios.defaults.baseURL="http://localhost:8080/"
+axios.defaults.baseURL="http://archivez_final_repo.test/archivez_be/public/"
 
 createApp(App)
   .use(router)
