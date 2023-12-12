@@ -40,11 +40,13 @@ const routes = [
     path: '/instructorlogin',
     name: 'instructorlogin',
     component: InstructorLogin,
+    meta: {requiresAuth: false}
   },
   {
     path: '/instructorsignup',
     name: 'instructorsignup',
     component: InstructorSignup,
+    meta: {requiresAuth: false}
   },
   {
     path: '/studentlogin',
@@ -60,6 +62,7 @@ const routes = [
     path: '/studentdashboard',
     name: 'studentdashboard',
     component: StudentDashboard,
+    // meta: {requiresAuth: true}
   },
   {
     path: '/myprofile',
@@ -80,6 +83,7 @@ const routes = [
     path: '/admindashboard',
     name: 'admindashboard',
     component: AdminDashboard,
+    // meta: {requiresAuth: true}
   },
   {
     path: '/adminprofile',
@@ -105,6 +109,7 @@ const routes = [
     path: '/instructordashboard',
     name: 'instructordashboard',
     component: InstructorDashboard,
+    //meta: {requiresAuth: true}
   },
   {
     path: '/instructorprofile',
