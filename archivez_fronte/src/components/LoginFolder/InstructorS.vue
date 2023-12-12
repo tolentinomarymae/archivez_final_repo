@@ -55,7 +55,7 @@
                     <label for="password_confirm">Confirm Password</label>
                        <input type="password" id="password_confirm" name="password_confirm" placeholder="********" v-model="password_confirm" required>
                    </div>
-                   <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
+                   <div v-if="message === 'passwordMismatch'">Password do not match</div>
                    <div class="form-group">
                        <input type="submit" value="Register">
                    </div>
